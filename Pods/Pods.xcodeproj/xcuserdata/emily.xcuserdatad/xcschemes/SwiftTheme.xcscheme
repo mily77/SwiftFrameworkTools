@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '238A067AD8BD77A6BABFF2727170E61B'
-               BlueprintName = 'SwiftTheme'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftTheme.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1701D0F9680E3E4E01C1835BD8B09D71"
+               BlueprintName = "SwiftTheme"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "SwiftTheme.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

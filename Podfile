@@ -14,20 +14,20 @@ pod 'SwiftTheme'
 pod 'RxSwift'
 pod 'RxCocoa'
 pod 'RxDataSources'
-pod 'SQLite.swift'
+#pod 'SQLite.swift'
 pod 'SVProgressHUD'
 pod 'MJRefresh'
 pod 'SGPagingView'
-pod 'BMPlayer'
+#pod 'BMPlayer'
 pod 'FDFullscreenPopGesture'
 
 pod 'SnapKit'
 
 pod 'Moya'
 
-pod 'AMap3DMap' #3D地图SDK
-pod 'AMapSearch' #搜索服务SDK
-pod 'AMapNavi'
+#pod 'AMap3DMap' #3D地图SDK
+#pod 'AMapSearch' #搜索服务SDK
+#pod 'AMapNavi'
 
 
   target 'SwiftFrameworkToolsTests' do

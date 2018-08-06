@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '62D763C68331009EDB0477DADB554C5A'
-               BlueprintName = 'SGPagingView'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SGPagingView.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "03F0404CC8B0F00C90F67D9E31A627D9"
+               BlueprintName = "SGPagingView"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "SGPagingView.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

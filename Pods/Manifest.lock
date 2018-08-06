@@ -1,20 +1,5 @@
 PODS:
   - Alamofire (4.6.0)
-  - AMap3DMap (5.7.0):
-    - AMapFoundation (~> 1.4)
-  - AMapFoundation (1.4.3)
-  - AMapNavi (5.5.0):
-    - AMap3DMap (>= 5.6.0)
-    - AMapFoundation (~> 1.4)
-  - AMapSearch (5.7.0):
-    - AMapFoundation (~> 1.4)
-  - BMPlayer (1.0.1):
-    - BMPlayer/Full (= 1.0.1)
-  - BMPlayer/Core (1.0.1)
-  - BMPlayer/Full (1.0.1):
-    - BMPlayer/Core
-    - NVActivityIndicatorView (~> 4.0.0)
-    - SnapKit (~> 4.0.0)
   - Differentiator (3.0.2)
   - FDFullscreenPopGesture (1.1)
   - HandyJSON (4.0.0-beta.1)
@@ -26,9 +11,6 @@ PODS:
   - Moya/Core (10.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
-  - NVActivityIndicatorView (4.0.1):
-    - NVActivityIndicatorView/Presenter (= 4.0.1)
-  - NVActivityIndicatorView/Presenter (4.0.1)
   - Result (3.2.4)
   - RxCocoa (4.1.1):
     - RxSwift (~> 4.0)
@@ -39,19 +21,12 @@ PODS:
   - RxSwift (4.1.1)
   - SGPagingView (1.3.5)
   - SnapKit (4.0.0)
-  - SQLite.swift (0.11.4):
-    - SQLite.swift/standard (= 0.11.4)
-  - SQLite.swift/standard (0.11.4)
   - SVProgressHUD (2.2.2)
   - SwiftTheme (0.4.1)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
-  - AMap3DMap
-  - AMapNavi
-  - AMapSearch
-  - BMPlayer
   - FDFullscreenPopGesture
   - HandyJSON (~> 4.0.0-beta.1)
   - IBAnimatable
@@ -63,18 +38,32 @@ DEPENDENCIES:
   - RxSwift
   - SGPagingView
   - SnapKit
-  - SQLite.swift
   - SVProgressHUD
   - SwiftTheme
   - SwiftyJSON
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - IBAnimatable
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SGPagingView
+    - SnapKit
+    - SVProgressHUD
+    - SwiftTheme
+    - SwiftyJSON
+
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
-  AMap3DMap: 97afc57b88628237d916991ac31795eb7bde3f63
-  AMapFoundation: 973682cfe60b92efd73a8ef8f1144fa0fa8e1296
-  AMapNavi: d2759fcd67b82b0a8e07fe7317ef0bfe339de47d
-  AMapSearch: 314f75e9ce282b53dbf66455efa416c39f12b5b1
-  BMPlayer: 44eebf06eb01450dd14ea74b27d07c5222f0eed1
   Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
@@ -82,18 +71,16 @@ SPEC CHECKSUMS:
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
   MJRefresh: 5f8552bc25ca8751c010f621c1098dbdaacbccd6
   Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
-  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
   RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
   SGPagingView: b001e3c761386ac6f33be9ff073bcf250b394874
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
   SwiftTheme: 36d71c4eed4b2c401c782cf036e4586c749a8173
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: cfd594822065430606fa97b45ad4581b5e28a533
+PODFILE CHECKSUM: a23cea189ea6084d7a531a0caa4106e3f22a0f57
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
