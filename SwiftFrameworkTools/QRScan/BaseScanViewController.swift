@@ -11,21 +11,21 @@ import Foundation
 import AVFoundation
 
 public protocol BaseScanViewControllerDelegate {
-    func scanFinished(scanResult:HSxScanResult,error:String?)
+    func scanFinished(scanResult: HSxScanResult, error:String?)
 }
 
 class BaseScanViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     //返回扫码结果，也可以通过继承本控制器，改写该handleCodeResult方法即可
-    var scanResultDelegate: BaseScanViewControllerDelegate?
+    open var scanResultDelegate: BaseScanViewControllerDelegate?
     
-    var scanObj:HSxScanWrapper?
+    open var scanObj:HSxScanWrapper?
     
-    var scanStyle:HSxScanViewStyle? = HSxScanViewStyle()
+    open var scanStyle:HSxScanViewStyle? = HSxScanViewStyle()
     
-    var qRScanView:HSxScanView?
+    open var qRScanView:HSxScanView?
     
     //启动区域识别功能
-    var isOpenInterestRect = false
+    open var isOpenInterestRect = false
     
     // 识别码的类型
     public var arrayCodeType:[AVMetadataObject.ObjectType]?

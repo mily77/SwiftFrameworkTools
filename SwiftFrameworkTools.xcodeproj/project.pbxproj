@@ -12,6 +12,7 @@
 		A132252020BFD2F1006A5307 /* ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132251F20BFD2F1006A5307 /* ValidationService.swift */; };
 		A132252220BFD33D006A5307 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132252120BFD33D006A5307 /* Protocol.swift */; };
 		A132252420BFFC08006A5307 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A132252320BFFC08006A5307 /* LoginViewModel.swift */; };
+		A154588621197EFA00F5E7B6 /* QQScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154588521197EFA00F5E7B6 /* QQScanViewController.swift */; };
 		A155290220283F3700607EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155290120283F3700607EC3 /* AppDelegate.swift */; };
 		A155290420283F3700607EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155290320283F3700607EC3 /* ViewController.swift */; };
 		A155290720283F3700607EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A155290520283F3700607EC3 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		A180AFD02074AF0000307319 /* guideImage7.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC42074AF0000307319 /* guideImage7.gif */; };
 		A180AFD12074AF0000307319 /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC52074AF0000307319 /* guideImage6.gif */; };
 		A180AFD22074AF0000307319 /* shopping.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC62074AF0000307319 /* shopping.gif */; };
+		A18991492117FA35008BF81F /* Area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18991482117FA35008BF81F /* Area.plist */; };
 		A199E9B4204E45820036306E /* DeliveryLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199E9B2204E45820036306E /* DeliveryLoginViewController.swift */; };
 		A199E9B5204E45820036306E /* DeliveryLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A199E9B3204E45820036306E /* DeliveryLoginViewController.xib */; };
 		A199E9B7204E459F0036306E /* DeliveryMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199E9B6204E459F0036306E /* DeliveryMainViewController.swift */; };
@@ -107,6 +109,7 @@
 		A132251F20BFD2F1006A5307 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
 		A132252120BFD33D006A5307 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		A132252320BFFC08006A5307 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A154588521197EFA00F5E7B6 /* QQScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQScanViewController.swift; sourceTree = "<group>"; };
 		A15528FE20283F3700607EC3 /* SwiftFrameworkTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFrameworkTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A155290120283F3700607EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A155290320283F3700607EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +153,7 @@
 		A180AFC42074AF0000307319 /* guideImage7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage7.gif; sourceTree = "<group>"; };
 		A180AFC52074AF0000307319 /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
 		A180AFC62074AF0000307319 /* shopping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shopping.gif; sourceTree = "<group>"; };
+		A18991482117FA35008BF81F /* Area.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Area.plist; sourceTree = "<group>"; };
 		A199E9B2204E45820036306E /* DeliveryLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLoginViewController.swift; sourceTree = "<group>"; };
 		A199E9B3204E45820036306E /* DeliveryLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryLoginViewController.xib; sourceTree = "<group>"; };
 		A199E9B6204E459F0036306E /* DeliveryMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryMainViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +294,7 @@
 				A155290520283F3700607EC3 /* Main.storyboard */,
 				A155290820283F3700607EC3 /* Assets.xcassets */,
 				A155290A20283F3700607EC3 /* LaunchScreen.storyboard */,
+				A18991482117FA35008BF81F /* Area.plist */,
 				A155290D20283F3700607EC3 /* Info.plist */,
 			);
 			path = SwiftFrameworkTools;
@@ -323,6 +328,7 @@
 				A16CFCA420F4B93B009E5A04 /* HSxScanViewStyle.swift */,
 				A16CFCA620F4B96D009E5A04 /* HSxScanWrapper.swift */,
 				A19ECD3220F732F4002D1B9C /* BaseScanViewController.swift */,
+				A154588521197EFA00F5E7B6 /* QQScanViewController.swift */,
 			);
 			path = QRScan;
 			sourceTree = "<group>";
@@ -544,6 +550,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18991492117FA35008BF81F /* Area.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,6 +712,7 @@
 				A199E9B7204E459F0036306E /* DeliveryMainViewController.swift in Sources */,
 				A132252420BFFC08006A5307 /* LoginViewModel.swift in Sources */,
 				A1DF32F820479B6C008C00E3 /* ApiCookies.swift in Sources */,
+				A154588621197EFA00F5E7B6 /* QQScanViewController.swift in Sources */,
 				A1DF32FC2047A726008C00E3 /* UserDefaultsSettable.swift in Sources */,
 				A155290220283F3700607EC3 /* AppDelegate.swift in Sources */,
 				A132252020BFD2F1006A5307 /* ValidationService.swift in Sources */,
