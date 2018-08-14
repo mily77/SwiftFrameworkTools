@@ -26,6 +26,14 @@ func kScreenHeight() -> CGFloat {
     return kScreenSize().height
 }
 
+// iphone X
+let iphoneX = kScreenHeight == 812 ? true : false
+
+let kNaviHeight: CGFloat = iphoneX ? 88 : 64
+let kTabbarHeight: CGFloat = iphoneX ? 49 + 34 : 49
+
+
+
 // MARK:- 颜色方法
 // MARK:- 十六进制
 func kRGBColorFromHex(rgbValue: Int) -> UIColor {
