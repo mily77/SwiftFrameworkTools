@@ -54,6 +54,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if indexPath.row == 10 {
+            openLocalPhotoAlbum()
             return;
         }
         HSxPermissions.authorizeCameraWith { [weak self] (granted) in
@@ -96,7 +97,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
         
         let vc = QQScanViewController();
         var style = HSxScanViewStyle()
-        style.animationImage = UIImage(named: "CodeScan.bundle/qrcode_scan_light_green")
+        style.animationImage = UIImage(named: "qrcode_scan_light_green")
 //        vc.scanStyle = style
         self.navigationController?.pushViewController(vc, animated: true)
         
@@ -130,7 +131,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
         style.isNeedShowRetangle = false;
         
         style.anmiationStyle = HSxScanViewAnimationStyle.NetGrid;
-        style.animationImage = UIImage(named: "CodeScan.bundle/qrcode_scan_full_net")
+        style.animationImage = UIImage(named: "qrcode_scan_full_net")
         
         
         
@@ -202,7 +203,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
         style.anmiationStyle = HSxScanViewAnimationStyle.LineMove;
         
         //qq里面的线条图片
-        style.animationImage = UIImage(named: "CodeScan.bundle/qrcode_scan_light_green")
+        style.animationImage = UIImage(named: "qrcode_scan_light_green")
         
         let vc = BaseScanViewController();
         vc.scanStyle = style
@@ -229,7 +230,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
         style.colorAngle = UIColor(red: 0.0/255, green: 200.0/255.0, blue: 20.0/255.0, alpha: 1.0)
         
         
-        style.animationImage = UIImage(named: "CodeScan.bundle/qrcode_Scan_weixin_Line")
+        style.animationImage = UIImage(named: "qrcode_Scan_weixin_Line")
         
         
         let vc = BaseScanViewController();
@@ -436,8 +437,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, BaseScanVi
     
     func myCode()
     {
-//        let vc = MyCodeViewController()
-//        self.navigationController?.pushViewController(vc, animated: true)
+        let vc = MyCodeViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func scanFinished(scanResult: HSxScanResult, error: String?){

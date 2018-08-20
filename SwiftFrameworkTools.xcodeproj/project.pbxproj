@@ -50,6 +50,7 @@
 		A180AFD02074AF0000307319 /* guideImage7.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC42074AF0000307319 /* guideImage7.gif */; };
 		A180AFD12074AF0000307319 /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC52074AF0000307319 /* guideImage6.gif */; };
 		A180AFD22074AF0000307319 /* shopping.gif in Resources */ = {isa = PBXBuildFile; fileRef = A180AFC62074AF0000307319 /* shopping.gif */; };
+		A184D0EE212ABFD9004AF784 /* MyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A184D0ED212ABFD9004AF784 /* MyCodeViewController.swift */; };
 		A18991492117FA35008BF81F /* Area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18991482117FA35008BF81F /* Area.plist */; };
 		A199E9B4204E45820036306E /* DeliveryLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199E9B2204E45820036306E /* DeliveryLoginViewController.swift */; };
 		A199E9B5204E45820036306E /* DeliveryLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A199E9B3204E45820036306E /* DeliveryLoginViewController.xib */; };
@@ -153,6 +154,7 @@
 		A180AFC42074AF0000307319 /* guideImage7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage7.gif; sourceTree = "<group>"; };
 		A180AFC52074AF0000307319 /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
 		A180AFC62074AF0000307319 /* shopping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shopping.gif; sourceTree = "<group>"; };
+		A184D0ED212ABFD9004AF784 /* MyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCodeViewController.swift; sourceTree = "<group>"; };
 		A18991482117FA35008BF81F /* Area.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Area.plist; sourceTree = "<group>"; };
 		A199E9B2204E45820036306E /* DeliveryLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLoginViewController.swift; sourceTree = "<group>"; };
 		A199E9B3204E45820036306E /* DeliveryLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryLoginViewController.xib; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				A1DC53E62043EE9E006B465B /* TRDelivery */,
 				A155290120283F3700607EC3 /* AppDelegate.swift */,
 				A155290320283F3700607EC3 /* ViewController.swift */,
+				A184D0ED212ABFD9004AF784 /* MyCodeViewController.swift */,
 				A155290520283F3700607EC3 /* Main.storyboard */,
 				A155290820283F3700607EC3 /* Assets.xcassets */,
 				A155290A20283F3700607EC3 /* LaunchScreen.storyboard */,
@@ -690,6 +693,7 @@
 				A199E9B9204E45B80036306E /* PickingMainViewController.swift in Sources */,
 				A16A5DB82045404100E10BCA /* PickerLoginViewController.swift in Sources */,
 				A1B0455C2057D22300CC07C0 /* TestViewController.swift in Sources */,
+				A184D0EE212ABFD9004AF784 /* MyCodeViewController.swift in Sources */,
 				A16CFCA720F4B96D009E5A04 /* HSxScanWrapper.swift in Sources */,
 				A16CFCA320F4B80B009E5A04 /* HSxScanView.swift in Sources */,
 				A1CE1615204F76EF0057FE26 /* GYSideConfig.swift in Sources */,
